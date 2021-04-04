@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Opción 2</title>
+</head>
+<body>
+    <div class="formulario">
+        <h1>Sign Up</h1>
+        <form action="" id="form1">
+            <label class="label" for="firstname">First name</label>
+            <br>
+            <input class="input1" type="text" id="firstname">
+            <br>
+            <label class="label" for="age">Age</label>
+            <br>
+            <input class="input1" type="number" id="age">
+            <br>
+            <label class="label" for="income">Income</label>
+            <br>
+            <input class="input1" type="number" id="income">
+            <br>
+            <label class="label" for="moreinfo">More Info</label>
+            <br>
+            <input class="text" type="text" id="moreinfo">
+            <br>
+
+            <!-- Gender -->
+            <label class="label" for="">Gender</label>
+            <br>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="male">Female</label>
+                <input type="radio" id="trans" name="gender" value="trans">
+                <label for="male">Trans</label>
+            </div>
+            <br>
+
+            <!-- Planes -->
+            <label class="label" for="plan">Plan</label>
+            <br>
+            <input class="input1" list="planes" id="plan" placeholder="Select plan">
+            <datalist id="planes">
+                <option value="Plan 1"></option>
+                <option value="Plan 2"></option>
+                <option value="Plan 3"></option>
+                <option value="Plan 4"></option>
+            </datalist>
+            <br>
+            <!-- Suscripción -->
+            <input type="checkbox" id="subscribe">
+            <label class="label" for="subscribe">Subscribe to newsletter</label>
+        </form>
+        <button type="submit" form="form1" value="Next">Update</button>
+    </div>
+    <div class="formulario2 opciones">
+        <a href="./index.html">Opción 1</a>
+        <a href="./index3.html">Opción 3</a>
+    </div>
+</body>
+</html>
